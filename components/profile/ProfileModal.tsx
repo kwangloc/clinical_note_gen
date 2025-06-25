@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ProfileDisplay } from "./ProfileDisplay";
 import { ProfileEdit } from "./ProfileEdit";
-import { DoctorProfile } from "./Types";
+import { DoctorProfile } from "./types";
 
 interface ProfileModalProps {
   isOpen: boolean;

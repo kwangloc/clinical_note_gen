@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DoctorProfile, Experience, Education, Publication, Contact } from './Types';
+import { DoctorProfile, Experience, Education, Publication, Contact } from './types';
 
 interface ProfileEditProps {
   profile: DoctorProfile;

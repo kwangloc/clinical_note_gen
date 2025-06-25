@@ -10,8 +10,9 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import React from "react";
 import { ProfileModal } from "@/components/profile/ProfileModal";
+import { DoctorProfile } from "@/components/profile/types";
 
-import { DoctorProfile } from "@/components/profile/Types";
+// import { DoctorProfile } from "@/components/profile/Types";
 
 export default function Home() {
   // Upload state

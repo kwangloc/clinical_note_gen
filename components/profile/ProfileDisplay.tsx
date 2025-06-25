@@ -1,4 +1,4 @@
-import { DoctorProfile } from './Types';
+import { DoctorProfile } from './types';
 
 interface ProfileDisplayProps {
   profile: DoctorProfile;
