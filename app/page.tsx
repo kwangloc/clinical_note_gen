@@ -68,7 +68,16 @@ export default function Home() {
 
     setIsLoadingProfile(true);
     try {
-      const response = await fetch(apiBaseUrl);
+      // const response = await fetch(apiBaseUrl);
+      const response = await fetch(apiBaseUrl, {
+      method: "GET",
+      headers: {
+        "ngrok-skip-browser-warning": "1", // skip Ngrok warning page :contentReference[oaicite:1]{index=1}
+        // alternatively, you can set a custom User-Agent header
+        // "User-Agent": "MyApp/1.0"
+      },
+    });
+      
       if (!response.ok) {
         throw new Error(`Failed to fetch profile: ${response.status}`);
       }
